@@ -1,0 +1,12 @@
+{
+  "presets": [
+    ["@babel/preset-env", {
+      "targets": {
+        "browsers": "IE 11" // Target ES5 for older environments
+      },
+      "useBuiltIns": "usage", // Automatically include required polyfills
+      "corejs": 3 // Use core-js version 3
+    }],
+    "@babel/preset-typescript"
+  ]
+}
